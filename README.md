@@ -6,31 +6,31 @@
 
 例
 ```
-dotfiles -h
+$ dotfiles -h
 ```
 ヘルプを表示します。
 
 追加
 ```
-dotfiles add {file name}
+$ dotfiles add {file name}
 ```
 dotfileに追加しシンボリックリンクを貼ります。
 
 一覧表示
 ```
-dotfiles list
+$ dotfiles list
 ```
 dotfileのファイル一覧
 
 削除
 ```
-dotfiles remove {file name}
+$ dotfiles remove {file name}
 ```
 シンボリックリンクを削除しdotfileからファイルを移動します。
 
 デプロイ
 ```
-dotfiles deploy
+$ dotfiles deploy
 ```
 dotfiles一覧のシンボリックリンクをすべて貼ります。
 
