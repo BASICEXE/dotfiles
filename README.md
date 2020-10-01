@@ -44,7 +44,7 @@ mkdir ~/bin
 echo '~/bin' >> ~/.bash_profile
 git clone repository ~/your/path
 cp ~/your/path/dotfiles ~/bin/dotfiles
-chmod 755 dotfiles
+chmod 755 ~/bin/dotfiles
 ```
 
 ## 設定
